@@ -1,0 +1,153 @@
+
+header * {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: #D7CEC7;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    padding-top: 10px; 
+}
+
+nav, footer, section, article {
+    /*border-style: solid;*/
+    padding: 10px;
+    background-color: #D7CEC7;
+    border-radius: 1em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+nav {
+    padding-bottom: 20px;
+}
+
+article {
+    padding: 10px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 10px;
+}
+
+nav li, #menuButton {
+    display: inline;
+
+    padding: 10px;
+
+    margin: 5px;
+
+    margin-right: 25px;
+    border-radius: 2em;
+    background-color: #565656;
+}
+
+#menuButton {
+    margin-top: 20px;
+    color: white;
+    display: none;
+    height: 40px;
+    clear: left;
+}
+
+#menuButton:hover {
+    cursor: pointer;
+}
+
+nav a, nav a:link, nav a:visited {
+    color: white;
+    text-decoration: none;
+    
+}
+
+#active {
+    background-color: #76323F;
+}
+
+#banner {
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    border-radius: 1em;
+}
+
+article {
+    padding-left: 20px;
+}
+
+footer img {
+    width: 75px;
+    margin: 5px 5px 0px 5px;
+    padding: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1em;
+}
+ footer p {
+    display: inline-block;
+    text-align: right;
+    padding-right: 10px;
+ }
+
+ .close {
+    background-color: red;
+    float: right;
+ }
+
+ .hidden {
+    visibility: hidden;
+    display: none;
+ }
+
+ @media (max-width: 740px) {
+    nav li {
+        display: block;
+        margin-top: 30px;
+        
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    header img {
+        padding-bottom: 15px;
+    }
+
+    #menuButton {
+        display: block;
+    }
+
+    #banner {
+        display: none;
+    }
+}
+
+@media (min-width: 741px) {
+    nav ul {
+        display: block;
+    }
+
+    #menuButton {
+        display: none;
+    }
+
+    #banner {
+        display: block;
+    }
+}
+
+@media (max-width: 620px) {
+    iframe {
+        width: auto;
+        height: auto;
+    }
+}

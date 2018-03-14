@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <title>Hunter Audio - Projects</title>
+    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/logo.jpg">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+
+        #projectHolder {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 10px;
+            display:none;
+        }
+
+        article .title, article .content {
+            display:inline;
+
+        }
+
+        article img {
+            width: 20%;
+            display:inline-block;
+            float: left;
+            margin-right:20px;
+            margin-bottom: 20px;
+        }
+
+        article .date {
+            clear:left;
+        }
+
+        @media (max-width: 620px) {
+            article img {
+                clear:left;
+                width: 40%;
+            }
+        }
+    </style>
+
+</head>
+<body onload="setUp ()">
+
+    <header>
+        <img src="../images/logo.jpg" alt="Jamie Icon"> 
+        <h1>Hunter Audio</h1>
+    </header>
+
+    <nav>
+        <img src="../images/Hamburger_icon.png" id="menuButton" onclick="toggleMenu ()">
+        <ul>
+            <a href="../index.html"><li>Home</li></a>
+            <a href="discography.html"><li>Discography</li></a>
+            <a href=""><li id="active">Analogue Projects</li></a>
+            <a href="testimonials.html"><li>Testimonials</li></a>
+            <a href="contact.html"><li>Contact Me</li></a>
+        </ul>
+    </nav>
+
+    <img src="../images/banner2.png" alt="banner" id="banner">
+
+    <div id="projectHolder">
+        <article>
+            <img src="../images/rb.png" alt="projectPhoto">
+            <h3 class="title">Project Title</h3>
+            <br>
+            <p class="content">This is the content of the page</p>
+            <p class="date">Jan 2012</p>
+        </article>
+    </div>
+
+    <footer>
+        <a href="https://www.instagram.com/jhfarnell/" target="_blank"><img src="../images/instagram-logo.png" alt="instagram logo"></a>
+        
+        <a href="https://twitter.com/jhfarnell" target="_blank"><img src="../images/twitter-logo.png" alt="twitter logo"></a>
+        
+        <a href="https://www.linkedin.com/in/jamie-farnell-82ba58159/" target="_blank"><img src="../images/linkedin-logo.png" alt="linkedin logo"></a>
+        
+        <a href="mailto:jamie@hunteraudio.co.uk?Subject=" target="_top"><img src="../images/email-logo.png" alt="email logo"></a>
+        <p>Made for Jamie Farnell by Sam Elwes</p>
+    </footer>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/menuScript.js"></script>
+    <script src="../js/analogueProjects.js"></script>
+    <script src="../js/analogueProjectsScript.js"></script>
+
+</body>
+</html>

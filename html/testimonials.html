@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <title>Hunter Audio - Testimonials</title>
+    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/logo.jpg">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+        article {
+            background-color: #D7CEC7;
+            border-style: solid;
+            border-radius: 1em;
+            padding: 10px;
+            text-align: left;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #projectHolder {
+            
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        article .title, article .content {
+            display:inline;
+
+        }
+
+        @media (max-width: 620px) {
+            #projectHolder {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            iframe {
+                width: auto;
+                height: auto;
+            }
+        }
+    </style>
+
+</head>
+<body onload="setUp ()">
+
+    <header>
+        <img src="../images/logo.jpg" alt="Jamie Icon"> 
+        <h1>Hunter Audio</h1>
+    </header>
+
+    <nav>
+        <img src="../images/Hamburger_icon.png" id="menuButton" onclick="toggleMenu ()">
+        <ul>
+            <a href="../index.html"><li>Home</li></a>
+            <a href="discography.html"><li>Discography</li></a>
+            <a href="analogueProjects.html"><li>Analogue Projects</li></a>
+            <a href=""><li id="active">Testimonials</li></a>
+            <a href="contact.html"><li>Contact Me</li></a>
+        </ul>
+    </nav>
+
+    <img src="../images/banner.png" alt="banner" id="banner">
+
+    <article style="text-align: center">
+        <iframe id="YouTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/q-LP-dTjOR4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen allowscriptaccess="always"></iframe>
+    </article>
+
+    <div id="projectHolder"></div>
+
+    <footer>
+        <a href="https://www.instagram.com/jhfarnell/" target="_blank"><img src="../images/instagram-logo.png" alt="instagram logo"></a>
+        
+        <a href="https://twitter.com/jhfarnell" target="_blank"><img src="../images/twitter-logo.png" alt="twitter logo"></a>
+        
+        <a href="https://www.linkedin.com/in/jamie-farnell-82ba58159/" target="_blank"><img src="../images/linkedin-logo.png" alt="linkedin logo"></a>
+        
+        <a href="mailto:jamie@hunteraudio.co.uk?Subject=" target="_top"><img src="../images/email-logo.png" alt="email logo"></a>
+        <p>Made for Jamie Farnell by Sam Elwes</p>
+    </footer>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/menuScript.js"></script>
+    <script src="../js/tetimonials.js"></script>
+    <script src="../js/tetimonialScript.js"></script>
+
+
+</body>
+</html>

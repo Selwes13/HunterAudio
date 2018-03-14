@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <title>Hunter Audio - Discography</title>
+    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/logo.jpg">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+        #albumHolder {
+            text-align: center;
+        }
+
+        #overlay {
+            position: fixed;
+            background-color: #D7CEC7;
+            padding: 30px;
+            top: 10px;
+            border-radius: 2em;
+            display: none;
+            left: 10px;
+            overflow-x: hidden;
+            /*overflow: scroll;
+            width: 90%;
+            height: 80%;*/
+            
+        }
+
+        #overlay img {
+            margin: 20px;
+            width: 20%;
+        }
+
+        #overlay p {
+            display: inline;
+            margin: 20px 0px 20px 0px;
+        }
+
+        #overlay span {
+            margin-left: 20px;
+        }
+
+        #YouTubeIframe {
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        iframe {
+            margin-bottom: 20px;
+        }
+
+        article {
+            background-color: #D7CEC7;
+            border-radius: 1em;
+            padding: 10px;
+            text-align: left;
+        }
+
+        article:hover {
+            cursor: pointer;
+        }
+
+        #albumHolder {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+
+        article img {
+            width: 150px;
+        }
+
+        article p {
+            display:inline;
+            word-wrap: normal;
+            overflow-wrap: normal;
+        }
+
+        article span {
+            margin: 0px 0px 0px 15px;
+        }
+
+        .genera, .production {
+            clear: left;
+        }   
+
+
+        @media (max-width: 950px) {
+            #albumHolder {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+        @media (max-width: 735px) {
+            #albumHolder {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            #overlay iframe {
+                clear:right;
+            }
+        }
+
+        
+
+    </style>
+
+</head>
+<body >
+
+    <header>
+        <img src="../images/logo.jpg" alt="Jamie Icon"> 
+        <h1>Hunter Audio</h1>
+    </header>
+
+    <nav>
+        <img src="../images/Hamburger_icon.png" id="menuButton" onclick="toggleMenu ()">
+        <ul>
+            <a href="../index.html"><li>Home</li></a>
+            <a href=""><li id="active">Discography</li></a>
+            <a href="analogueProjects.html"><li>Analogue Projects</li></a>
+            <a href="testimonials.html"><li>Testimonials</li></a>
+            <a href="contact.html"><li>Contact Me</li></a>
+        </ul>
+    </nav>
+
+    <img src="../images/banner2.png" alt="banner" id="banner">
+
+    <!-- Search Box -->
+    <section>
+        Genera:
+        <select name="genera" id="generaPicker">
+            <option value="All">All</option>
+
+        </select>
+
+        Mixed:<input type="checkbox" class="productionRoleCB" checked>
+        Recorded:<input type="checkbox" checked class="productionRoleCB">
+        Produced:<input type="checkbox" checked class="productionRoleCB">
+        <input type="button" value="Search" onclick="search ()">
+
+    </section>
+
+    <section id="player" style="display:none;">
+        <input type="button" class="close" value="X" onclick="hideAlbum ()">
+        
+        <iframe id="YouTubeIframe" width="560" height="315" src="https://www.youtube.com/embed/q-LP-dTjOR4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen allowscriptaccess="always"></iframe>
+        <iframe id="SoundCloudIframe" width="100%" height="300" src="" scrolling="no" frameborder="no" allow="autoplay" allowscriptaccess="always"></iframe>
+        <!--spotify, min width 250-->
+        <iframe id="SpotifyIframe" src="" width="640" height="80" frameborder="0" allowtransparency="true" allowscriptaccess="always"></iframe>
+        
+        <img scr="" alt="Album Cover" align="left">
+        <h3 id="title"></h3>
+        <p id="desc"></p>
+        
+    </section>
+
+    <div id="albumHolder" style="display: none">
+
+    </div>
+
+    <footer>
+        <a href="https://www.instagram.com/jhfarnell/" target="_blank"><img src="../images/instagram-logo.png" alt="instagram logo"></a>
+        
+        <a href="https://twitter.com/jhfarnell" target="_blank"><img src="../images/twitter-logo.png" alt="twitter logo"></a>
+        
+        <a href="https://www.linkedin.com/in/jamie-farnell-82ba58159/" target="_blank"><img src="../images/linkedin-logo.png" alt="linkedin logo"></a>
+        
+        <a href="mailto:jamie@hunteraudio.co.uk?Subject=" target="_top"><img src="../images/email-logo.png" alt="email logo"></a>
+        <p>Made for Jamie Farnell by Sam Elwes</p>
+    </footer>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/menuScript.js"></script>
+    <script src="../js/discography.js"></script>
+    <script src="../js/discographyScript.js"></script>
+
+
+</body>
+</html>

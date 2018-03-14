@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <title>Hunter Audio - Home</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo.jpg">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        #aboutMe p {
+            display: inline;
+        }
+
+        #aboutMe img {
+            width: auto; 
+            height: 150px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+        }
+        
+        article {
+            margin-top: 20px;
+            clear: left;
+        }
+
+        @media (max-width: 440px) {
+            #aboutMe img {
+                width: 80%;
+                height: auto;
+                display: inline-block;
+                margin-left: 9%;
+                margin-right: 9%;
+            }
+
+            #aboutMe p {
+                display: block;
+                clear: left;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.jpg" alt="Jamie Icon"> 
+        <h1>Hunter Audio</h1>
+    </header>
+
+    <nav>
+        <img src="images/Hamburger_icon.png" id="menuButton" onclick="toggleMenu ()">
+        <ul>
+            <a href=""><li id="active">Home</li></a>
+            <a href="html/discography.html"><li>Discography</li></a>
+            <a href="html/analogueProjects.html"><li>Analogue Projects</li></a>
+            <a href="html/testimonials.html"><li>Testimonials</li></a>
+            <a href="html/contact.html"><li>Contact Me</li></a>
+        </ul>
+    </nav>
+
+    <img src="images/banner.png" alt="banner" id="banner">
+
+    <article id="aboutMe">
+        <h2>Overview:</h2>
+        <img src="images/JamieProfile.png" alt="picture of jamie" align="left">
+        <p>
+            Hunter Audio are an audio production company based in London. Focussing on the capture and creation of musical ideas, we specialise in production, recording and mixing. Fronted by Jamie Farnell, Hunter Audio started because of Jamie’s observations of the industry, and the changing nature of music creation. Technology has brought with it a rise in DIY record making, and a move away from the ‘traditional’ recording model with artists less dependant on large studios. Understanding this has dictated Hunter Audio’s flexibility in their approach to music creation, in terms of both location of recording and technology used. For us, the most important consideration in any session is the artistic vision of our clients, and realising these in a comfortable, creative environment is what we do. 
+        </p>
+        <br>
+        <p style="clear:left; display:block"></p>
+    </article>
+
+    <article>
+        <h2>About Jamie:</h2>
+        <p>Jamie has been involved in music from a young age, playing in various pop, jazz and classical outfits. A recent graduate of Falmouth University, Jamie spent his time at university honing his studio craft. Working with many musicians across a number of styles has further developed his musical understanding and production experience. In addition to studio work, Jamie’s interest in analogue audio electronics grew during his final year of university. He became interested in the design of audio equipment such as pre-amps, EQ’s and compressors, and how specific pieces of analogue equipment have perceived value placed on them by users. Having designed his own audio equipment, Jamie has an understanding of how the equipment works that is rare amongst engineers of today. Combining this with his musical knowledge creates a successful marriage of aesthetic and technical considerations in the studio.</p>    
+    </article>
+
+    <article>
+        <h2>Services:</h2>
+        <p>Our services include: </p> 
+        <ul>
+            <li>Production</li>
+            <li>Recording</li> 
+            <li>Mix Engineering</li> 
+            <li>Location recording</li>
+            <li>Online Mixing</li> 
+        </ul>
+        <p>Commissions taken for the creation of bespoke analogue recording equipment. <br/> For any enquiries or more information, do not hesitate to contact us.</p>        
+    </article>
+
+    <footer>
+        <a href="https://www.instagram.com/jhfarnell/" target="_blank"><img src="images/instagram-logo.png" alt="instagram logo"></a>
+        
+        <a href="https://twitter.com/jhfarnell" target="_blank"><img src="images/twitter-logo.png" alt="twitter logo"></a>
+        
+        <a href="https://www.linkedin.com/in/jamie-farnell-82ba58159/" target="_blank"><img src="images/linkedin-logo.png" alt="linkedin logo"></a>
+        
+        <a href="mailto:jamie@hunteraudio.co.uk?Subject=" target="_top"><img src="images/email-logo.png" alt="email logo"></a>
+        <p>Made for Jamie Farnell by Sam Elwes</p>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/menuScript.js"></script>
+
+</body>
+</html>
