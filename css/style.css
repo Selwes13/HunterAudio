@@ -98,12 +98,12 @@ article {
 }
 
 footer img {
-    width: 75px;
+    width: 30px;
     margin: 5px 5px 0px 5px;
-    padding: 2px;
+    padding: 6px;
     border-style: solid;
     border-color: black;
-    border-radius: 1em;
+    border-radius: 0.5em;
 }
  footer p {
     display: inline-block;
