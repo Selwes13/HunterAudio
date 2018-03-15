@@ -1,9 +1,9 @@
-//list of generas, they're sorted before being displayed
+//list of genres, they're sorted before being displayed
 var generas = [
-    "Rock",
-    "Alt",
-    "Pop",
-    "Punk"
+    "Acoustic",
+    "Neo-Soul",
+    "Pop",    
+    "Country"
 ];
 
 //list of albums and their details
@@ -16,47 +16,51 @@ var generas = [
 var albums = [
 
 {
-    albumName:"Fluff-nuts",
-    bandName:"Green Day",
-    date:"2004",
-    genre:"Punk",
-    roles:"Mixed",
-    image:"cover.png",
-    link:"e9x4o1gAzTc",
-    linkType:"YouTube"
+    albumName:"The Fall",
+    bandName:"Eliza May",
+    date:"2018",
+    genre:"Pop",
+    roles:"Mixed, Produced",
+    image:"The Fall - Eliza May.jpg",
+    link:"spotify:track:0BIDIdPX4OkTcHfGbYNqoM",
+    linkType:"Spotify"
 },
 
 {
-    albumName:"Fluff-nuts: the comeback",
-    bandName:"Two Door Cinema Club",
-    date:"2012",
-    genre:"Alt",
-    roles:"Recorded",
-    image:"cover.png",
-    link:"295357176",
+    albumName:"Wisteria Tree",
+    bandName:"Monetté Allison",
+    date:"2017",
+    genre:"Neo-Soul",
+    roles:"Recorded, Mixed",
+    image:"Wisteria Tree - Monetté Allison.jpg",
+    link:"spotify:track:1bLDbFUfrlkjkmH0gBFJtO",
+    linkType:"Spotify"
+},
+
+{
+    albumName:"Come Home",
+    bandName:"Jasper and the Island",
+    date:"2017",
+    genre:"Country",
+    roles:"Recorded, Mixed",
+    image:"Come Home - Jasper and the Island.png",
+    link:"342953590",
     linkType:"SoundCloud"
 },
 
 {
-    albumName:"Fluf-nut...",
-    bandName:"MGMT",
-    date:"2012",
-    genre:"Pop, Alt",
-    roles:"Recorded, Mixed, Produced",
-    image:"cover.png",
-    link:"spotify:album:5hXgjTSvzx1CtmTtRlCOTZ",
-    linkType:"Spotify"
-},
-
-{
-    albumName:"They're back",
-    bandName:"The Fratelis",
-    date:"2012",
-    genre:"Pop, Rock",
-    roles:"Mixed",
-    image:"cover.png",
-    link:"spotify:track:3WQGwy4LNHMmeeb2PDfgWo",
-    linkType:"Spotify"
+    albumName:"Long Way From Home",
+    bandName:"Logan",
+    date:"2017",
+    genre:"Acoustic, Pop",
+    roles:"Mixed, Recorded, Produced",
+    image:"",
+    link:"349909333",
+    linkType:"SoundCloud"
 }
     
 ];
+
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/342953590&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>",
+
+//<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/349909333&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>

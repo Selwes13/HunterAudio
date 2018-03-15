@@ -3,21 +3,10 @@
 //two images: image: "image1.png, image2.png"
 var projects = [
     {
-        title:"Project 1",
-        image:"../rb.png",
-        text:"Hello, this is my lastest project",
-        date:"Jan 2018"
-    },
-    {
-        title:"Project 2",
-        image:"../rb.png, ../rb.png, ../rb.png",
-        text:"Hello, this is my second lastest project",
-        date:"dec 2017"
-    },
-    {
-        title:"Project 3",
-        image:"../rb.png",
-        text:"Hello, this is a later project where I made some stuff",
-        date:"oct 2017"
+        title:"The Analogue Blog",
+        image:"AnalogueBlogphoto1.jpg",
+        text:"Hello, and welcome to the analogue blog. This is where I will discuss ideas that have come out of my ongoing research into analogue character as it relates to audio electronics. This research is based on circuit design: specifically, the sonic differences caused by changing active devices used in circuits (valves vs transistors etc.). It is an interesting area of conversation and the results aren’t always what you think! This blog is a place to share thoughts, upcoming designs, and interesting facts and electronics information. Feel free to get in touch with any thoughts or just for a chat about analogue gear! Jamie",
+        date:"March 2018"
     }
+
 ];
