@@ -23,7 +23,12 @@ nav, footer, section, article {
     margin-top: 5px;
 }
 
+footer {
+    padding: 0px;
+}
+
 nav {
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -79,6 +84,11 @@ nav a, nav a:link, nav a:visited {
     border-radius: 1em;
 }
 
+.titleLink {
+    margin: 0px;
+    padding: 0px;
+}
+
 article {
     padding-left: 20px;
 }
@@ -93,7 +103,7 @@ footer img {
 }
  footer p {
     display: inline-block;
-    text-align: right;
+    float: right;
     padding-right: 10px;
  }
 
