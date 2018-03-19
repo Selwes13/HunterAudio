@@ -9,13 +9,17 @@ header img {
     width: 100px;
     height: 100px;
     background-color: #D7CEC7;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-    padding-top: 10px; 
+    border-radius: 1em;
+    padding: 10px; 
+}
+
+header p {
+    clear:left;
+    display:block;
 }
 
 header h1 {
-    padding: 0px;
+    padding: 30px 0px 0px 0px;
 }
 
 nav, footer, section, article {
@@ -163,5 +167,11 @@ footer img {
     iframe {
         width: auto;
         height: auto;
+    }
+}
+
+@media (max-width: 366px) {
+    header br {
+        display: none;
     }
 }
