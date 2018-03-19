@@ -54,7 +54,7 @@ var albums = [
     date:"2017",
     genre:"Acoustic, Pop",
     roles:"Mixed, Recorded, Produced",
-    image:"",
+    image:"Long Way From Home.png",
     link:"349909333",
     linkType:"SoundCloud"
 }
