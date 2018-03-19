@@ -16,7 +16,7 @@ header img {
     float: left;
     width: 100px;
     height: 100px;
-    background-color: #D7CEC7;
+    /*background-color: #D7CEC7;*/
     border-radius: 1em;
     padding: 0px;
 }
@@ -33,7 +33,8 @@ header h1 {
 nav, footer, section, article {
     /*border-style: solid;*/
     padding: 10px;
-    background-color: #D7CEC7;
+    /*background-color: #D7CEC7;*/
+    background-color: #c09f80;
     border-radius: 1em;
     margin-bottom: 5px;
     margin-top: 5px;
