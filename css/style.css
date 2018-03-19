@@ -51,6 +51,10 @@ article {
     margin-bottom: 10px;
 }
 
+article p {
+    font-size: 1.2em;
+}
+
 section {
     padding: 10px;
 }

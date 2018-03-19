@@ -55,7 +55,7 @@ function addAlbumToDisplay (name, band, date, image, genera, production, id) {
     str += "<span class=\"albumName\">" + name + "</span><br>";
     str += "<span class=\"bandName\">by " + band + "</span><br>";
     str += "<span class=\"date\">" + date + "</span><br><br>";
-    str += "<span class=\"genera\">Genera: " + genera + "</span><br>";
+    str += "<span class=\"genera\">Genre: " + genera + "</span><br>";
 
     str += "<span class=\"production\">Role: " + production + "</span>";  
 
